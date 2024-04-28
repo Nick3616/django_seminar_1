@@ -1,0 +1,54 @@
+INFO 2024-04-28 14:18:55,447 autoreload 22104 19668 Watching for file changes with StatReloader
+INFO 2024-04-28 14:19:19,206 basehttp 22104 22652 "GET /about/ HTTP/1.1" 200 7
+INFO 2024-04-28 14:19:21,471 basehttp 22104 22652 "GET / HTTP/1.1" 200 13
+INFO 2024-04-28 14:19:33,697 autoreload 22104 19668 D:\python\django\myproject\myproject\urls.py changed, reloading.
+INFO 2024-04-28 14:19:34,054 autoreload 8496 20896 Watching for file changes with StatReloader
+WARNING 2024-04-28 14:19:36,911 log 8496 10820 Not Found: /
+WARNING 2024-04-28 14:19:36,911 basehttp 8496 10820 "GET / HTTP/1.1" 404 2164
+WARNING 2024-04-28 14:19:43,715 log 8496 10820 Not Found: /ab
+WARNING 2024-04-28 14:19:43,715 basehttp 8496 10820 "GET /ab HTTP/1.1" 404 2188
+WARNING 2024-04-28 14:20:04,339 log 8496 10820 Not Found: /ab/about
+WARNING 2024-04-28 14:20:04,339 basehttp 8496 10820 "GET /ab/about HTTP/1.1" 404 2206
+INFO 2024-04-28 14:21:05,967 basehttp 8496 10820 "GET /ad HTTP/1.1" 200 13
+WARNING 2024-04-28 14:21:14,147 log 8496 10820 Not Found: /ad/about
+WARNING 2024-04-28 14:21:14,148 basehttp 8496 10820 "GET /ad/about HTTP/1.1" 404 2436
+WARNING 2024-04-28 14:21:40,163 log 8496 10820 Not Found: /ad/about/
+WARNING 2024-04-28 14:21:40,163 basehttp 8496 10820 "GET /ad/about/ HTTP/1.1" 404 2439
+INFO 2024-04-28 14:21:58,192 basehttp 8496 10820 "GET /ad HTTP/1.1" 200 13
+WARNING 2024-04-28 14:22:31,715 log 8496 10820 Not Found: /ad/about
+WARNING 2024-04-28 14:22:31,716 basehttp 8496 10820 "GET /ad/about HTTP/1.1" 404 2436
+INFO 2024-04-28 14:23:14,200 autoreload 8496 20896 D:\python\django\myproject\myapp\urls.py changed, reloading.
+INFO 2024-04-28 14:23:14,576 autoreload 10404 10200 Watching for file changes with StatReloader
+WARNING 2024-04-28 14:23:17,356 log 10404 3536 Not Found: /ad/about
+WARNING 2024-04-28 14:23:17,356 basehttp 10404 3536 "GET /ad/about HTTP/1.1" 404 2439
+INFO 2024-04-28 14:23:32,376 autoreload 10404 10200 D:\python\django\myproject\myapp\urls.py changed, reloading.
+INFO 2024-04-28 14:23:32,745 autoreload 19004 6212 Watching for file changes with StatReloader
+INFO 2024-04-28 14:23:53,034 basehttp 19004 19088 "GET /ad/about/ HTTP/1.1" 200 7
+INFO 2024-04-28 14:24:07,288 basehttp 19004 19088 "GET /ad/about/ HTTP/1.1" 200 7
+INFO 2024-04-28 14:24:13,031 autoreload 19004 6212 D:\python\django\myproject\myapp\urls.py changed, reloading.
+INFO 2024-04-28 14:24:13,402 autoreload 19000 11052 Watching for file changes with StatReloader
+WARNING 2024-04-28 14:24:15,817 log 19000 2268 Not Found: /ad/about/
+WARNING 2024-04-28 14:24:15,817 basehttp 19000 2268 "GET /ad/about/ HTTP/1.1" 404 2440
+INFO 2024-04-28 14:24:17,992 basehttp 19000 2268 "GET /ad/about HTTP/1.1" 200 7
+INFO 2024-04-28 14:25:27,432 autoreload 19000 11052 D:\python\django\myproject\myproject\settings.py changed, reloading.
+INFO 2024-04-28 14:25:27,800 autoreload 30240 16196 Watching for file changes with StatReloader
+INFO 2024-04-28 14:25:31,173 autoreload 30240 16196 D:\python\django\myproject\myproject\settings.py changed, reloading.
+INFO 2024-04-28 14:25:31,552 autoreload 30176 4436 Watching for file changes with StatReloader
+INFO 2024-04-28 15:16:54,155 autoreload 30176 4436 D:\python\django\myproject\myproject\urls.py changed, reloading.
+INFO 2024-04-28 15:16:54,537 autoreload 20432 26576 Watching for file changes with StatReloader
+INFO 2024-04-28 15:17:29,576 autoreload 20432 26576 D:\python\django\myproject\myapp\urls.py changed, reloading.
+INFO 2024-04-28 15:17:29,946 autoreload 20640 30340 Watching for file changes with StatReloader
+INFO 2024-04-28 15:18:05,000 autoreload 20640 30340 D:\python\django\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-28 15:18:05,367 autoreload 6488 25376 Watching for file changes with StatReloader
+INFO 2024-04-28 15:18:06,689 autoreload 6488 25376 D:\python\django\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-28 15:18:07,068 autoreload 23648 15508 Watching for file changes with StatReloader
+INFO 2024-04-28 15:18:19,633 autoreload 23648 15508 D:\python\django\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-28 15:18:19,994 autoreload 14624 2800 Watching for file changes with StatReloader
+INFO 2024-04-28 15:18:24,371 autoreload 14624 2800 D:\python\django\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-28 15:18:24,747 autoreload 4644 10684 Watching for file changes with StatReloader
+INFO 2024-04-28 15:18:26,063 autoreload 4644 10684 D:\python\django\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-28 15:18:26,425 autoreload 5256 28476 Watching for file changes with StatReloader
+INFO 2024-04-28 15:18:28,773 autoreload 5256 28476 D:\python\django\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-28 15:18:29,132 autoreload 9948 12596 Watching for file changes with StatReloader
+INFO 2024-04-28 15:18:35,574 autoreload 9948 12596 D:\python\django\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-28 15:18:35,968 autoreload 18644 13972 Watching for file changes with StatReloader
